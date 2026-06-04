@@ -17,11 +17,13 @@
 **Expected Result:**
 - [enumerate the intended outcome or what should happen]
 
-****Actual Result:** [only include for tests/features with `DEFECTS`]
+**Actual Result:** [only include for tests/features with `DEFECTS`]
 - [tell what really happened in the testing - especailly, when a defect is found]
 
 **Status:** PASS or FAIL — Defect identified
+
 **Bug Reference:** [only include when the status is `FAIL`]
 
 **Automated:** [Type "Yes" or "No" if the test case is automated or not]
+
 **Automation Reference:** [insert the reference for the automated test | N/A for none]

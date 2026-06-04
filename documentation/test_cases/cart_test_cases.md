@@ -24,6 +24,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_cart.py::test_add_single_item_to_cart`
 
 ---
@@ -54,6 +55,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_cart.py::test_add_multiple_items_to_cart`
 
 ---
@@ -86,6 +88,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_cart.py::test_remove_items_in_cart`
 
 ---
@@ -117,4 +120,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_cart.py::test_cart_persistency`
