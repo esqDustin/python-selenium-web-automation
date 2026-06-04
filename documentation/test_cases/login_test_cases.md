@@ -24,6 +24,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_login.py::test_successful_login`
 
 ---
@@ -52,4 +53,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_login.py::test_unsuccessful_login`

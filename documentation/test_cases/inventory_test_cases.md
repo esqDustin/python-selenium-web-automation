@@ -26,6 +26,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_inventory.py::test_inventory_products_on_display`
 
 ---
@@ -56,6 +57,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_inventory.py::test_sort_products_by_low_to_high_price`
 
 --- 
@@ -87,4 +89,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_inventory.py::test_sort_products_by_Z_to_A_name`

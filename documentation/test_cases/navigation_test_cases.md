@@ -23,6 +23,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_navigation.py::test_nav_link_visibility`
 
 ---
@@ -50,6 +51,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_navigation.py::test_user_logout`
 
 ---
@@ -79,4 +81,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_navigation.py::test_back_button_inaccessible_after_logout`

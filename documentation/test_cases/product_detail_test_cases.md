@@ -26,4 +26,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_product_detail.py::test_product_details_on_display`

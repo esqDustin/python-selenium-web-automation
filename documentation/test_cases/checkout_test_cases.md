@@ -37,6 +37,7 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_checkout.py::test_checkout_happy_path`
 
 --- 
@@ -69,6 +70,7 @@
 **Bug Reference:** `BUG-Cart-001` from `documentation/bug_reports/cart_bug_reports.md`
 
 **Automated:** Yes
+
 **Automation Reference:** `tests/test_checkout.py::test_empty_cart_checkout`
 
 --- 
@@ -109,4 +111,5 @@
 **Status:** PASS
 
 **Automated:** Yes
+
 **Automation Reference:**  `tests/test_checkout.py::test_incomplete_customer_info_checkout`
