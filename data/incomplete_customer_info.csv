@@ -1,0 +1,8 @@
+first_name|last_name|zip_code|error_message
+""|""|""|Error: First Name is required
+Kyrie|""|""|Error: Last Name is required
+""|Irving|""|Error: First Name is required
+""|""|33101|Error: First Name is required
+Kyrie|Irving|""|Error: Postal Code is required
+Kyrie|""|33101|Error: Last Name is required
+""|Irving|33101|Error: First Name is required

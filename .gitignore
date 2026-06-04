@@ -1,0 +1,86 @@
+# =========================================================================
+# 1. CORE PYTHON & PYTEST FOUNDATION (From GitHub's Official Template)
+# =========================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest / Unit test / coverage reports
+.pytest_cache/
+.cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Environments & Virtualization
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================================================
+# 2. LOCAL WORKSTATION & IDE CONFIGURATIONS (Crucial for Portfolios)
+# =========================================================================
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# JetBrains / PyCharm settings
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================================================================
+# 3. QA AUTOMATION ARTIFACTS & TEST REPORTS (Custom Framework Rules)
+# =========================================================================
+
+# Exclude local test execution reports and logging dumps
+logs/
+*.log
+local_reports/
+reports/
+
+# Exclude runtime failure screenshots captured by Selenium
+screenshots/
+failures/
