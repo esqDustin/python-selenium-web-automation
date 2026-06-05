@@ -30,8 +30,8 @@ A professional-grade web UI automation portfolio project built using **Python**,
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone https://github.com/esqDustin/python-selenium-web-automation.git
+   cd python-selenium-web-automation
    ```
 
 2. **Install Dependencies**
