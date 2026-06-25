@@ -28,12 +28,12 @@ def test_inventory_products_on_display(browser, utilities, login_data):
 
     assert 'inventory.html' in inventory_page.get_inventory_page_url()
     assert len(items) == 6
-    assert all(displayed_item is True for displayed_item in are_items_displayed)
-    assert all(displayed_item_name is True for displayed_item_name in are_items_name_displayed)
+    assert all(displayed_item == True for displayed_item in are_items_displayed)
+    assert all(displayed_item_name == True for displayed_item_name in are_items_name_displayed)
     assert all(name != '' for name in item_names)
-    assert all(displayed_item_price is True for displayed_item_price in are_items_price_displayed)
+    assert all(displayed_item_price == True for displayed_item_price in are_items_price_displayed)
     assert all(price.startswith('$') for price in item_prices)
-    assert all(item_image_displayed is True for item_image_displayed in are_items_image_displatyd)
+    assert all(item_image_displayed == True for item_image_displayed in are_items_image_displatyd)
 
 @pytest.mark.testcase_id("TC-INVENTORY-002")
 @pytest.mark.inventory

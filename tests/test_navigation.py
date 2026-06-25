@@ -22,7 +22,7 @@ def test_nav_link_visibility(browser, utilities, login_data):
     
     expected_nav_links = ['All Items', 'About', 'Logout', 'Reset App State']
 
-    assert inventory_page.are_burger_menu_links_showing() is True
+    assert inventory_page.are_burger_menu_links_showing() == True
 
     nav_links = inventory_page.get_burger_menu_links_name()
 
@@ -50,7 +50,7 @@ def test_user_logout(browser, utilities, login_data):
 
     is_username_field_appeared = login_page.is_username_field_visible()
 
-    assert is_username_field_appeared is True
+    assert is_username_field_appeared == True
 
 @pytest.mark.testcase_id("TC-Nav-003")
 @pytest.mark.nav

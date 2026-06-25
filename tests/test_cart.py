@@ -26,7 +26,7 @@ def test_add_single_item_to_cart(browser, utilities, login_data):
     number_of_items_in_cart = inventory_page.get_amount_of_items_in_cart_badge()
     button_state_text = inventory_page.get_product_button_state_text('Sauce Labs Backpack')
 
-    assert is_cart_badge_displayed is True, "Cart badge not displayed."
+    assert is_cart_badge_displayed == True, "Cart badge not displayed."
     assert number_of_items_in_cart == 1
     assert button_state_text.lower() == 'remove', "Cart state did not change from add... to remove"
 
@@ -54,7 +54,7 @@ def test_add_multiple_items_to_cart(browser, utilities, login_data, items_to_add
     is_cart_badge_displayed = inventory_page.is_cart_badge_displayed()
     number_of_items_in_cart = inventory_page.get_amount_of_items_in_cart_badge()
     
-    assert is_cart_badge_displayed is True, "Cart badge not displayed."
+    assert is_cart_badge_displayed == True, "Cart badge not displayed."
     assert number_of_items_in_cart == len(items_to_add['list_of_items'])
     assert all(state.lower() == 'remove' for state in button_state_list)
 
@@ -93,13 +93,13 @@ def test_remove_items_in_cart(browser, utilities, login_data, cart_items):
     if len(number_of_items_in_cart) > 0:
         cart_badge_item_amount = cart_page.get_amount_of_items_in_cart_badge()
         assert cart_badge_item_amount == len(number_of_items_in_cart)
-        assert is_cart_badge_displayed is True
+        assert is_cart_badge_displayed == True
     else:
         assert len(number_of_items_in_cart) == 0
-        assert is_cart_badge_displayed is False
+        assert is_cart_badge_displayed == False
     
     are_product_cards_removed = [cart_page.is_product_card_removed(card) for card in product_cards]
-    assert all(is_removed is True for is_removed in are_product_cards_removed)
+    assert all(is_removed == True for is_removed in are_product_cards_removed)
     
 @pytest.mark.testcase_id("TC-Cart-004")
 @pytest.mark.cart
@@ -132,5 +132,5 @@ def test_cart_persistency(browser, utilities, login_data, items_to_add):
     is_cart_badge_displayed = inventory_page.is_cart_badge_displayed()
     bagde_count_items = inventory_page.get_amount_of_items_in_cart_badge()
 
-    assert is_cart_badge_displayed is True
+    assert is_cart_badge_displayed == True
     assert bagde_count_items == len(items_in_cart)

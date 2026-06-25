@@ -22,7 +22,7 @@ def test_successful_login(browser, utilities, test_data):
 
     assert test_data['header_phrase'] in inventory_page.get_inventory_page_header_text()
     assert test_data['partial_url_link'] in inventory_page.get_inventory_page_url()
-    assert inventory_page.is_shopping_cart_visible() is True
+    assert inventory_page.is_shopping_cart_visible() == True
 
 
 @pytest.mark.testcase_id("TC-LOGIN-002")
